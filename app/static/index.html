@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar with Output</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <center>
+        <h3>Please wait 2 - 4 minutes for video creation.</h3>
+    </center>
+    <img src="/static/images/artificial-intelligence.png" alt="Video Background" class="background-image">
+    <img src="/static/images/studio.svg" alt="Video Background" class="upper">
+    <img src="/static/images/video-call.svg" alt="Video Background" class="left">
+    <div class="container">
+        <h2><i class="fas fa-video"></i> Enter The Topic For Video</h2>
+        <input type="text" id="userInput" placeholder="Type something...">
+        <br>
+        <button onclick="displayInput()">
+            <i class="fas fa-play"></i> Submit
+        </button>
+        <p id="output"></p>
+        <div class="icon-container">
+            <i class="fas fa-film"></i>
+            <i class="fas fa-magic"></i>
+            <i class="fas fa-lightbulb"></i>
+        </div>
+    </div>
+    <img src="/static/images/robotic.png" alt="Cinematic Bokeh" class="footer-image">
+    <img src="/static/images/script.svg " alt="Cinematic Bokeh" class="footer-left">
+    <img src="/static/images/film-editing.svg " alt="Cinematic Bokeh" class="right">
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

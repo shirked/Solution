@@ -1,0 +1,10 @@
+fastapi
+pydantic
+google-cloud-storage
+aiofiles
+python-decouple
+google-generativeai
+google-cloud-texttospeech
+Pillow
+pydub
+uvicorn
